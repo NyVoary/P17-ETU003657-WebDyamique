@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5faff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #71a3c1;
+    text-align: center;
+    margin-top: 30px;
+}
+
+form {
+    background-color: white;
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(113, 163, 193, 0.2);
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+input[type="submit"],
+a.button {
+    background-color: #71a3c1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+input[type="submit"]:hover,
+a.button:hover {
+    background-color: #5d8fa9;
+}
+
+ul {
+    max-width: 500px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    list-style: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(113, 163, 193, 0.2);
+}
+
+li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+a {
+    color: #71a3c1;
+    text-decoration: none;
+    margin: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.center {
+    text-align: center;
+    margin-top: 20px;
+}

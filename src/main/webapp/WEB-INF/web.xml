@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+         https://javaee.github.io/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <!-- Servlet de connexion -->
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>servlets.LoginServlet</servlet-class>
+    </servlet>
+
+    <!-- Mappage de la servlet de connexion -->
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+    <!-- Servlet Budget -->
+    <servlet>
+        <servlet-name>BudgetServlet</servlet-name>
+        <servlet-class>servlets.BudgetServlet</servlet-class>
+    </servlet>
+
+    <!-- Mappage de la servlet Budget -->
+    <servlet-mapping>
+        <servlet-name>BudgetServlet</servlet-name>
+        <url-pattern>/budget</url-pattern> <!-- Vous pouvez ajuster l'URL ici -->
+    </servlet-mapping>
+
+    <!-- Servlet Movements -->
+    <servlet>
+        <servlet-name>MovementsServlet</servlet-name>
+        <servlet-class>servlets.MovementsServlet</servlet-class>
+    </servlet>
+
+    <!-- Mappage de la servlet Movements -->
+    <servlet-mapping>
+        <servlet-name>MovementsServlet</servlet-name>
+        <url-pattern>/movements</url-pattern> <!-- Vous pouvez ajuster l'URL ici -->
+    </servlet-mapping>
+
+    <!-- Servlet Dashboard -->
+    <servlet>
+        <servlet-name>DashobardServlet</servlet-name>
+        <servlet-class>servlets.DashobardServlet</servlet-class>
+    </servlet>
+
+    <!-- Mappage de la servlet Dashboard -->
+    <servlet-mapping>
+        <servlet-name>DashobardServlet</servlet-name>
+        <url-pattern>/dashboard</url-pattern> <!-- Vous pouvez ajuster l'URL ici -->
+    </servlet-mapping>
+</web-app>

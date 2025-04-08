@@ -1,0 +1,35 @@
+ETU003657/
+├── deploy.sh
+├── database/
+│   ├── base.sql
+│   ├── data.sql
+│   ├── drop.sql
+├── lib/
+│   ├── servlet-api.jar
+│   ├── mysql-connector-j-8.0.33.jar
+├── src/
+│   └── main/
+│       ├── java/
+│       │   ├── database/
+│       │   │   ├── DatabaseConnection.java
+│       │   │   ├── Main.java
+│       │   ├── entities/
+│       │   │   ├── Budget.java
+│       │   │   ├── Movements.java
+│       │   │   ├── User.java
+│       │   │   ├── Labels.java
+│       │   ├── servlets/
+│       │   │   ├── BudgetServlet.java
+│       │   │   ├── MovementsServlet.java
+│       │   │   ├── LoginServlet.java
+│       │   │   ├── DashboardServlet.java
+│       └── webapp/
+│           └── css/
+│               └── style.css
+│           └── WEB-INF/
+│               └── web.xml
+└── web/
+    ├── budget.jsp
+    ├── movements.jsp
+    ├── dashboard.jsp
+    ├── login.jsp
